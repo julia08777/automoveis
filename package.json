@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "test": "jest --runInBand",
     "test_default": "cross-env NODE_ENV=production vitest run",
     "test": "cross-env NODE_ENV=test vitest run",
     "start": "cross-env NODE_ENV=production nodemon src/server.js"
